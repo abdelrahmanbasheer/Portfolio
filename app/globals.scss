@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior:smooth ;
+}
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    
+  }
+  .fade-left {
+    animation: fadeLeft ease 2s;
+    -webkit-animation: fadeLeft ease 2s;
+    -moz-animation: fadeLeft ease 2s;
+    -o-animation: fadeLeft ease 2s;
+    -ms-animation: fadeLeft ease 2s;
+    
+  }
+  .fade-left1 {
+    animation: fadeLeft1 ease 3s;
+    -webkit-animation: fadeLeft1 ease 3s;
+    -moz-animation: fadeLeft1 ease 2s;
+    -o-animation: fadeLeft1 ease 2s;
+    -ms-animation: fadeLeft1 ease 2s;
+    
+  }
+  .fade-left2 {
+    animation: fadeLeft2 ease 4s;
+    -webkit-animation: fadeLeft2 ease 4s;
+    -moz-animation: fadeLeft2 ease 2s;
+    -o-animation: fadeLeft2 ease 2s;
+    -ms-animation: fadeLeft2 ease 2s;
+    
+  }
+  .fade-left3 {
+    animation: fadeLeft3 ease 4s;
+    -webkit-animation: fadeLeft3 ease 4s;
+    -moz-animation: fadeLeft3 ease 2s;
+    -o-animation: fadeLeft3 ease 2s;
+    -ms-animation: fadeLeft3 ease 2s;
+    
+  }
+  .line {
+    width: 6px;
+  height: 6px;
+  background: black;
+  border-radius: 3px;
+    transition: width 1s ease;
+  }
+  @keyframes lineanim {
+    0% {
+      transition: width 1s ease;
+    }
+    100% {
+      transition: width 1s ease;
+     }
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;
+      transform: translateY(0px);
+    }
+    
+    100% {opacity:1;
+      transform: translateY(10px);}
+  }
+  @keyframes fadeLeft {
+    0% {opacity:0;
+      transform: translateX(0px);
+    }
+    
+    100% {opacity:1;
+      transform: translateX(20px);}
+  }
+  @keyframes fadeLeft1 {
+    0% {opacity:0;
+      transform: translateX(0px);
+    }
+    
+    100% {opacity:1;
+      transform: translateX(22px);}
+  }
+  @keyframes fadeLeft2 {
+    0% {opacity:0;
+      transform: translateX(0px);
+    }
+    
+    100% {opacity:1;
+      transform: translateX(24px);}
+  }
+  @keyframes fadeLeft3 {
+    0% {opacity:0;
+      transform: translateX(0px);
+    }
+    
+    100% {opacity:1;
+      transform: translateX(26px);}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  .react-multi-carousel-list {
+    & .arrow-btn{
+      transition: width 300ms ease;
+      width: 50px;
+      &:hover{
+        width: 60px;
+      }
+    }
+    
+  }
+
+  .typewriter  {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end ;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

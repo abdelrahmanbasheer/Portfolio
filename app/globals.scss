@@ -46,19 +46,11 @@ html{
     
   }
   .line {
-    width: 6px;
+  width: 100%;
   height: 6px;
-  background: black;
+  background: rgb(0, 0, 0);
   border-radius: 3px;
-    transition: width 1s ease;
-  }
-  @keyframes lineanim {
-    0% {
-      transition: width 1s ease;
-    }
-    100% {
-      transition: width 1s ease;
-     }
+  transition: width 3s ease;
   }
   ::-webkit-scrollbar {
     width: 10px;
@@ -146,8 +138,8 @@ html{
     white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end ;
+      typing 2s steps(40, end),
+      
   }
   
   /* The typing effect */

@@ -6,8 +6,25 @@
  import img5 from "public/preview5.png"
  import img6 from "public/preview65.png"
  import img7 from "public/preview7.png"
+ import img8 from "public/preview8.png"
+ import img9 from "public/preview9.png"
  export const websites=[
+  {
+    title:"Merry People",
+    image:img8,
+    slug:"https://merrypeople.com/",
+    author:"Abdelrahman Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
+    },
+  {
+    title:"Formula AAST club",
+    image:img9,
+    slug:"https://merrypeople.com/",
+    author:"Abdelrahman Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
+    },
     {
+      
 title:"DuBlog",
 slug:"https://dublog.vercel.app/",
 image:img1,
@@ -63,6 +80,7 @@ slug:"https://duduhulu.vercel.app/",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
 },
+
 
 ]
 

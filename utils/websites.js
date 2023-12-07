@@ -1,43 +1,50 @@
  import previewImg from "public/images.png"
+ import img1 from "public/preview.png"
+ import img2 from "public/preview2.png"
+ import img3 from "public/preview3.png"
+ import img4 from "public/preview4.png"
+ import img5 from "public/preview5.png"
+ import img6 from "public/preview65.png"
+ import img7 from "public/preview7.png"
  export const websites=[
     {
 title:"DuBlog",
 slug:"https://dublog.vercel.app/",
-image:previewImg,
+image:img1,
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
 },
     {
 title:"Youtube",
-image:previewImg,
+image:img3,
 slug:"https://dutube.netlify.app/",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
 },
     {
 title:"Bank landing page",
-image:previewImg,
+image:img2,
 slug:"https://dudu-bank.vercel.app/",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
 },
     {
 title:"spotify semi-clone",
-image:previewImg,
+image:img4,
 slug:"https://github.com/abdelrahmanbasheer/Spotify-semi-clone",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
 },
     {
 title:"Realstate Showcase",
-image:previewImg,
+image:img5,
 slug:"https://emaar-properties.vercel.app/",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
 },
     {
 title:"exercises dictionary",
-image:previewImg,
+image:img6,
 slug:"https://7amo-gym.netlify.app/",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"
@@ -51,7 +58,7 @@ authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeq
 },
     {
 title:"Movies showcase",
-image:previewImg,
+image:img7,
 slug:"https://duduhulu.vercel.app/",
 author:"Abdelrahman Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6"

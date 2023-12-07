@@ -6,7 +6,7 @@ const lowerHero = () => {
         triggerOnce:true
        });
   return (
-    <section ref={secondRef} className='mt-20 mx-6 lg:mx-44 relative'>
+    <section ref={secondRef} id='lowerhero' className='mt-20 mx-6 lg:mx-44 relative'>
     <figure className={`hidden lg:block mb-10 ${second? "line w-[100%]":"w-[0%]"}`}></figure>
     <ul className='flex  absolute top-22 pt-5 md:pt-0 gap-2'>
       <li>

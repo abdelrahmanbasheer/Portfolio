@@ -1,21 +1,24 @@
-
 import './globals.scss'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
-  title: 'AB Portfolio',
-  description: 'this is abdelrahman basheer"s portfolio, have a look around the place ! ',
-  keywords:"portfolio , abdelrahman basheer",
-  robots:"index,follow",
-  abstract:"",
-  classification:"Personal website",
-  category:"Portfolio",
-  
+    openGraph: {
+      title: 'Abdelrahman basheer portfolio',
+      description: 'A/B software developer portfolio',
+      url: 'https://www.besheer.me/',
+      siteName: 'A/B portfolio',
+      images: [
+        {
+          url: './prtfolio.jpg',
+          width: 1000,
+          height: 600,
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
 
-}
+ }
+
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (

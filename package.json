@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.311.0",
     "moment": "^2.29.4",
     "next": "13.4.19",
     "postcss": "8.4.28",
@@ -21,7 +26,9 @@
     "react-intersection-observer": "^9.5.2",
     "react-multi-carousel": "^2.8.4",
     "sass": "^1.66.1",
+    "tailwind-merge": "^2.2.0",
     "tailwindcss": "3.3.3",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2"
   }
 }

@@ -8,6 +8,7 @@
  import img7 from "public/preview7.png"
  import img8 from "public/preview8.png"
  import img9 from "public/preview9.png"
+ import img11 from "public/preview10.png"
  import img10 from "public/img8.png"
  export const websites=[
   {
@@ -24,8 +25,16 @@
     slug:"",
     author:"A. Basheer",
     authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
-    description:"-This was a volunteering project for a famous students club in our college. -they needed a website for their future contests. -worked on it using react and tailwind "
+    description:"-This was a volunteering project for a famous students club in our college. -they needed a website for their future contests. -implemented a design from figma using react and tailwind "
     },
+    {
+      title:"Figma Clone",
+      image:img11,
+      slug:"https://figma-seven-sigma.vercel.app/",
+      author:"A. Basheer",
+      authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
+      description:"-developed this project using LiveblocksJS to create an experience similar to figma . -this project has live cursor tracking, addition and deletion of shapes and many more features. -this project was made using NextJs and Tailwind "
+      },
     {
       title:"Guessing game(clues)",
       image:img10,
@@ -98,6 +107,7 @@ author:"A. Basheer",
 authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
 description:"-this a project made to enhance my skills in react "
 },
+
 
 
 ]

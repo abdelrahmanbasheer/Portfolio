@@ -16,7 +16,7 @@ export default function Home() {
     <div className="h-[50vh]">
 <LowerHero></LowerHero>
 </div>
-    <div className="pt-4 border-t-2 border-gray-500">
+    <div className="pt-4 border-t-2 border-white">
     <FeaturedPosts></FeaturedPosts>
     </div>
     <Footer></Footer>

@@ -24,7 +24,7 @@ const FeaturedPosts = () => {
   );
 
   return (
-    <div id='websites' className="mb-8">
+    <div id='websites' className="">
       <Carousel infinite customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} responsive={responsive} itemClass="px-4">
         { websites.map((site, index) => (
           <FeaturedPostCard key={index} site={site} />

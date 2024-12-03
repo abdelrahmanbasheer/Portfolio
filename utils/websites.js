@@ -10,7 +10,30 @@
  import img9 from "public/preview9.png"
  import img11 from "public/preview10.png"
  import img10 from "public/img8.png"
+ import img12 from "public/preview11.png"
+ import img13 from "public/preview 13.png"
+ import img14 from "public/preview14.png"
+ import img15 from "public/preview15.png"
  export const websites=[
+
+  {
+    title:"DiDi Egypt",
+    image:img14,
+    slug:"https://web.didiglobal.com/eg/",
+    author:"A. Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
+    description:"-Redesigned and optimized the Egyptian website using NextJs, React, GraphQL, Contentful, and Tailwind CSS,implementing RTL design principles, achieving a 60% YoY increase in visits and conversion rates while improving usability and navigation. -performed a competitor's analysis to create new components and increase conversion rate and DFTS by 30%"
+  },
+
+  {
+    title:"DiDi Global",
+    image:img15,
+    slug:"https://web.didiglobal.com/",
+    author:"A. Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
+    description:"-Delivered 20+ features & enhancements, improving functionality and user satisfaction, while ensuring seamless integration with Figma designs. - Built and deployed multi-language pages (Arabic, English, Spanish) across various domains, collaborating with cross-functional teams to ensure seamless localization and integration."
+  },
+
   {
     title:"Merry People",
     image:img8,
@@ -19,13 +42,29 @@
     authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
     description:"-Worked on the migration process from their old website. -Integrated more than 150 blog pages from 3 different domains. -proccesed all of these images on Shopify's CMS. - Worked on resizing and editing more than 1000 images from the old website (added all of these images to Figma as well). "
     },
+  {
+    title:"Transeek",
+    image:img13,
+    slug:"/preview 13.png",
+    author:"A. Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
+    description:"-Collaborated in a team of three to develop a website for a company that assists exporters and importers in finalizing the legal work for their products. - Developed the application using React and Tailwind CSS, leveraging REST APIs to perform diverse tasks. - Implemented serverSide rendering with NextJs to improve performance and SEO."
+  },
+  {
+    title:"Supplify",
+    image:img12,
+    slug:"/preview11.png",
+    author:"A. Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
+    description:"-this is my Graduation project and my first React Native project. -Participated in a team of 4 to develop a B2B mobile app for our graduation project connecting suppliers withrestaurant owners. -Seamlessly translated designs from Figma into a fully functional mobile app. -Developed the app using React Native and Tailwind, leveraging REST APIs to perform diverse tasks."
+    },
 {
     title:"Formula AAST club",
     image:img9,
-    slug:"",
+    slug:"/preview9.png",
     author:"A. Basheer",
     authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
-    description:"-This was a volunteering project for a famous students club in our college. -they needed a website for their future contests. -implemented a design from figma using react and tailwind "
+    description:"-That was a volunteering project for a famous students club in our college. -they needed a website for their future contests. -implemented a design from figma using react and tailwind "
     },
     {
       title:"Figma Clone",

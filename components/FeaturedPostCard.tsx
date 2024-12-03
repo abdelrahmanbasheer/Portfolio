@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { PostProps } from './types';
 import CardButton from './CardButton';
 import { Suspense } from 'react'

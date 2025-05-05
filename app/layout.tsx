@@ -1,11 +1,12 @@
 import './globals.scss'
 import type { Metadata } from 'next'
 import { Analytics } from "@vercel/analytics/react"
+
 export const metadata: Metadata = {
     openGraph: {
       title: 'Abdelrahman basheer portfolio',
       description: 'A/B software developer portfolio',
-      url: 'https://www.besheer.me/',
+      url: 'https://besheer.vercel.app/',
       siteName: 'A/B portfolio',
       images: [
         {
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
       locale: 'en_US',
       type: 'website',
     },
-
+    title: 'A.Basheer portfolio',
+    description: 'A/B software developer portfolio',
  }
 
 

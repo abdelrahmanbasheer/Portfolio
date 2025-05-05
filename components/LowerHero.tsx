@@ -6,9 +6,11 @@ const lowerHero = () => {
         triggerOnce:true
        });
   return (
-    <section ref={secondRef} id='lowerhero' className=' mx-6 lg:mx-44 relative'>
+    <section ref={secondRef} id='lowerhero' className=' mx-6 lg:mx-44 relative mb-32'>
     <figure className={`hidden lg:block mb-10 ${second? "line w-[100%]":"w-[0%]"}`}></figure>
-    <ul className='flex  absolute top-22 pt-5 md:pt-0 gap-2'>
+    <div className='flex justify-between'>
+      <div>
+   <ul className='flex absolute top-22 pt-5 md:pt-0 gap-2'>
       <li>
         <img src="./icons8-tailwindcss.svg" alt="" className={`bg-white rounded-full p-1 ${second? "fade-left translate-x-5": "hidden"}`} />
       </li>
@@ -25,7 +27,7 @@ const lowerHero = () => {
         <img src="./icons8-typescript.svg" alt="" className={`bg-white rounded-full p-1 ${second? "fade-left3 translate-x-[28px]": "hidden"}`} />
       </li>
     </ul>
-    <ul className='hidden md:flex absolute top-28  gap-2'>
+    <ul className='hidden md:flex absolute top-28 gap-2'>
     <li>
         <img src="./icons8-graphql.svg" alt="" className={`bg-white rounded-full p-1 ${second? "fade-left translate-x-[20px]": "hidden"}`} />
       </li>
@@ -42,7 +44,9 @@ const lowerHero = () => {
         <img src="./icons8-level-up-your-coding-skills-and-quickly-land-a-job-48.png" alt="" className={`bg-white rounded-full p-1 ${second? "fade-left3 translate-x-[28px]": "hidden"}`} />
       </li>
     </ul>
-    <blockquote  className={`md:w-[55%] md:pl-7 mb-6 float-right font-semibold mt-20 md:mt-0 text-white ${second ? "fade-left translate-x-5":"hidden"}`}>My passion for software engineering ignited at a young age, driven by my fascination with technology and the art of creation. However, the true game-changer came when I ventured into freelancing, primarily in video editing. It was during this journey that I discovered my profound affinity for crafting digital media. This newfound passion naturally led me to explore the world of frontend development.And so, the journey began from there.</blockquote>
+    </div>
+    <h5  className={`md:w-[55%] md:pl-7 mb-6  font-semibold mt-20 md:mt-0 text-white ${second ? "fade-left translate-x-5":"hidden"}`}>My passion for software engineering ignited at a young age, driven by my fascination with technology and the art of creation. However, the true game-changer came when I ventured into freelancing, primarily in video editing. It was during this journey that I discovered my profound affinity for crafting digital media. This newfound passion naturally led me to explore the world of frontend development.And so, the journey began from there.</h5>
+    </div>
     </section>
   )
 }

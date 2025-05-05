@@ -52,6 +52,13 @@ html{
   border-radius: 3px;
   transition: width 3s ease;
   }
+  .line-horz {
+  width: 10px;
+  height: 350px;
+  background: #9b3701;
+  border-radius: 3px;
+  transition: height 3s ease;
+  }
   ::-webkit-scrollbar {
     width: 10px;
   }

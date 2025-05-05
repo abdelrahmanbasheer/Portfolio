@@ -4,22 +4,24 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import LowerHero from "@/components/LowerHero";
 import Footer from "@/components/Footer";
+import Experience from "@/components/Experience";
+
 
 export default function Home() {
   return (
+    <>
     <section>
-    <main className="mb-20 h-[60vh] md:h-[120vh] xl:h-[90vh]">
+    <main >
       <Navbar></Navbar>  
       <Hero></Hero>
-
-    </main>
-    <div className="h-[50vh]">
-<LowerHero></LowerHero>
-</div>
+    <LowerHero></LowerHero>
+    <Experience></Experience>
     <div className="pt-4 border-t-2 border-white">
     <FeaturedPosts></FeaturedPosts>
     </div>
     <Footer></Footer>
+    </main>
     </section>
+    </>
   )
 }

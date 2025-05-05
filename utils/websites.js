@@ -14,6 +14,7 @@
  import img13 from "public/preview 13.png"
  import img14 from "public/preview14.png"
  import img15 from "public/preview15.png"
+ import img16 from "public/img18.png"
  export const websites=[
 
   {
@@ -23,6 +24,14 @@
     author:"A. Basheer",
     authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
     description:"-Redesigned and optimized the Egyptian website using NextJs, React, GraphQL, Contentful, and Tailwind CSS,implementing RTL design principles, achieving a 60% YoY increase in visits and conversion rates while improving usability and navigation. -performed a competitor's analysis to create new components and increase conversion rate and DFTS by 30%"
+  },
+  {
+    title: "99 App ( DiDi BR)",
+    image:img16,
+    author:"A. Basheer",
+    authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
+    slug:"https://99app.com/",
+    description:"-Oversaw and reviewed the migration process from WordPress to React/Nextjs for the Brazilian region (99 App), evaluating code quality, ensuring consistency with internal standards, and challenging decisions to align with best practices and performance goals."
   },
 
   {

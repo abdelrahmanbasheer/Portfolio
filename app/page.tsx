@@ -10,6 +10,7 @@ import Experience from "@/components/Experience";
 export default function Home() {
   return (
     <>
+    <meta name="google-site-verification" content="tBmy2RY2-rmOg_HxF874XCu8B9OwNB6uVvhITDbheFo" />
     <section>
     <main >
       <Navbar></Navbar>  

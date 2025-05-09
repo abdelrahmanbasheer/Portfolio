@@ -18,8 +18,9 @@ export const metadata: Metadata = {
       locale: 'en_US',
       type: 'website',
     },
-    title: 'A.Basheer portfolio',
-    description: 'A/B software developer portfolio',
+    title: 'Abdelrahman Basheer Portfolio',
+    description: 'Abdelrahman Basheer Software Developer Portfolio',
+    
  }
 
 

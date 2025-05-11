@@ -5,9 +5,9 @@ import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
     openGraph: {
       title: 'Abdelrahman basheer portfolio',
-      description: 'A/B software developer portfolio',
+      description: 'Abdelrahman Basheer software developer portfolio',
       url: 'https://besheer.vercel.app/',
-      siteName: 'A/B portfolio',
+      siteName: 'Abdelrahman Basheer portfolio',
       images: [
         {
           url: './prtfolio.jpg',

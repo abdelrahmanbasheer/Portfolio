@@ -54,10 +54,10 @@
   {
     title:"Transeek",
     image:img13,
-    slug:"/preview 13.png",
+    slug:"http://transeek-mvp.vercel.app/",
     author:"A. Basheer",
     authorImg:"https://www.upwork.com/profile-portraits/c1uVN8kklsvc1DLgeEhyV_HwDOeqTeHD7aFmlpKy_kbJZSNZfc6sshmaF8FEYN5ik6",
-    description:"-Collaborated in a team of three to develop a website for a company that assists exporters and importers in finalizing the legal work for their products. - Developed the application using React and Tailwind CSS, leveraging REST APIs to perform diverse tasks. - Implemented serverSide rendering with NextJs to improve performance and SEO."
+    description:"-Collaborated in a team of three to develop a website for a company that assists exporters and importers in finalizing the legal work for their products. - Developed the application using React and Tailwind CSS, leveraging REST APIs to perform diverse tasks. - Implemented serverSide rendering with NextJs to improve performance and SEO. -The Current version is a Desktop MVP"
   },
   {
     title:"Supplify",
